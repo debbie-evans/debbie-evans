@@ -1,9 +1,17 @@
 
 body {
-background-color: /*BurlyWood*/ #99ccff;
-/* ebb: Looking for colors and color codes? Try the HTML color picker: https://www.w3schools.com/colors/colors_picker.asp */
-color: indigo;
+background-color: #ebadc2;
+color: #521429;
 font-family: arial, helvetica, sans-serif;
+}
+
+h2 {
+    text-align:center;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
 }
 
 /* ebb: This is a comment in CSS: 
