@@ -1,30 +1,47 @@
 
 body {
-background-image: linear-gradient(#66d0f7, #f1aaba, #ffffff, #f1aaba, #66d0f7);
-/*background-color: #ebadc2;*/
-color:#000000;
-/*color: #521429;*/
-/*text-shadow: 2px 2px black;*/
-font-family: arial, helvetica, sans-serif;
+    background-image: linear-gradient(#66d0f7, #f1aaba, #ffffff, #f1aaba, #66d0f7);
+    color:#000000;
+    /*text-shadow: 2px 2px black;*/
+    font-family: arial, helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3vw;
+    text-align: center;
 }
 
 h2 {
-    text-align:center;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1vw;
+    text-align: center;
+}
+
+ul.catlist {
+    font-size: 1vw;
+    text-align: left;
+    list-style-position: inside;
+    list-style-type: circle;
+    margin-left: 35.5em;
+}
+
+p {
+    font-size: 1vw;
 }
 
 img {
-  max-width: 50%;
-  height: auto;
+    max-width: 25%;
+    height: auto;
+}
+
+div.menu {
+    text-align: center;
+    font-size: 2.5vw;
+    background-color: #f1aaba;
 }
 
 
-
-/* ebb: This is a comment in CSS: 
- * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
- * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
- */
-
-ol {list-style-type: lower-alpha;
-padding: 5em;
-    
-}
