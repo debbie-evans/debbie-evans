@@ -63,6 +63,23 @@ a.navactive{
     flex-direction: row;
 }
 
+.intro{
+    margin:3vw;
+    margin-right: 3vw;
+    padding:.1vw;
+    background-image: linear-gradient(to bottom right, #e4fbff, #ccf7ff);
+    box-sizing: content-box;
+    border: .25vw solid #7868e6;
+    flex: 3;
+}
+
+.mypicture{
+    margin: 3vw;
+    flex: 1;
+    border: .25vw solid #7868e6;
+    display: flex;
+}
+
 .galleryone{
     flex: 2;
     padding: 1vw;
@@ -148,36 +165,11 @@ a.navactive{
     flex: 2;
     font-size: 1.5vw;
     padding: 1vw;
-/*    margin-left: 10vw;
-    margin-right: 10vw;*/
     margin-top: .5vw;
     margin-bottom: .5vw;
     background-image: linear-gradient(to bottom right, #e4fbff, #ccf7ff);
     border: #7868e6 .15vw solid;
     text-align: left;
-}
-.intro{
-    margin:3vw;
-    margin-right: 3vw;
-    padding:.1vw;
-    background-image: linear-gradient(to bottom right, #e4fbff, #ccf7ff);
-    box-sizing: content-box;
-    border: .25vw solid #7868e6;
-    flex: 3;
-}
-
-.mypicture{
-    margin: 3vw;
-    flex: 1;
-    border: .25vw solid #7868e6;
-    display: flex;
-}
-
-.title{
-    color: #7868e6;
-    margin-left: 3.5vw;
-    font-weight: 800;
-    line-height: 1.5;
 }
 
 .section{
@@ -197,6 +189,11 @@ h1{
     font-size: 3vw;
     text-align: left;
     margin-left: 2vw;
+}
+
+h1.essay{
+   text-align: center;
+   line-height: 2vw;
 }
 
 h2{
@@ -256,8 +253,28 @@ a{
     font-size: 1.5vw;
 }
 
+a.othersite{
+    font-size: 1.75vw;
+    text-align: left;
+    margin-left: 2.5vw;
+    font-weight: bold;
+}
+
+p.essay{
+    line-height: 2.25vw;
+}
+
+
 hr{
     border: solid #7868e6;
     margin: 1.5vw;
     margin-right: 2.5vw;
 }
+
+.contact{
+    text-align: right;
+    margin-left: 32vw;
+    font-weight:bold;
+}
+
+
