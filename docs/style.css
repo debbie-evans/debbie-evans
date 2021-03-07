@@ -9,12 +9,11 @@ body{
 }
 
 div.menu{
-    text-align: left;
+/*    text-align: left;*/
     font-size: 2vw;
     padding: 1.5vw;
     padding-left: 1vw;
     box-sizing:content-box;
-/*    background-image: linear-gradient(to bottom right, #88d0dd, #c3e8ee);*/
     background-color: #a0c3ee;
     border-bottom: .5vw solid #8a7bea;
     border-top: .5vw solid #8a7bea;
@@ -57,6 +56,13 @@ a.navactive{
     padding: .5vw;
     background-color: #7868e6;
     box-shadow: 2px 2px 1px #7868e6;
+}
+
+a.contact{
+    text-align: right;
+    margin-left: 33vw;
+    font-size: 1.5vw;
+    font-weight: bold;
 }
 
 .container{
