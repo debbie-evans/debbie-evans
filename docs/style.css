@@ -192,8 +192,7 @@ a.navactive{
 
 .corpuscenter{
     text-align: center;
-    max-width: 60%;
-    max-height: 40%;
+    max-width: 50%;
     flex: 2;
     box-sizing: content-box;
     margin-top: 1.5vw;
