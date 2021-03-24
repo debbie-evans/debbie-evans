@@ -17,9 +17,9 @@
         </div>
         
         <div class="section">
-            <h1 class="essay">Corpus Anaysis</h1>
+            <h1 class="essay">Corpus Analysis</h1>
             <p class="essay">
-                For this assignment, I decided to analyze "The Lottery" by Shirley Jackson and "The Most Dangerous Game" by Richard Connell. I chose to compare these two texts because they fall into a category I like to call "Weird Short Stories You Had to Read in High School English". Out of all of the stories in that category, I picked these two specifically because they both deal with normalized murder. The sites from which I retrieved each text is linked at the bottom of this page. "The Lottery" had a few typos in the source that I used, so I edited the .txt file to correct those errors. 
+                For this assignment, I decided to analyze "The Lottery" by Shirley Jackson and "The Most Dangerous Game" by Richard Connell. I chose to compare these two texts because they fall into a category I like to call "Weird Short Stories You Had to Read in High School English". Out of all of the stories in that category, I picked these two specifically because they both deal with murder being treated as something that is okay. The sites from which I retrieved each text is linked at the bottom of this page. "The Lottery" had a few typos in the source that I used, so I edited the .txt file to correct those errors. 
             </p>
             
             <h2>Voyant Word Clouds</h2>
@@ -36,14 +36,14 @@
                     <img src="corpusAnalysis/images/game/game_voyant_55.png"
                          alt="the Voyant cloud for The Most Dangerous Game"/>
                     <p class="corpuscaption">
-                        "The Most Dangerious Game"
+                        "The Most Dangerous Game"
                     </p>
          
                 </div>
             </div>
             
             <p class="essay">
-                Upon looking at these Voyant Word Clouds, it is clear that both texts have a lot of dialogue due to the frequecny of the word "said". In "The Most Dangerous Game", "said" is the third most frequent word (60 occurences), only after the names of the two main characters, Rainsford (119 occurences) and [the] General (97 occurences). In "The Lottery", "said" is the second most frequent word (69 occurences), while "summers" (in reference to Mr. Summers, the central character) only occurs 57 times. 
+                Upon looking at these Voyant Word Clouds, it is clear that both texts have a lot of dialogue due to the frequency of the word "said". In "The Most Dangerous Game", "said" is the third most frequent word (60 occurrences), only after the names of the two main characters, Rainsford (119 occurrences) and [the] General (97 occurrences). In "The Lottery", "said" is the second most frequent word (69 occurrences), while "summers" (in reference to Mr. Summers, a central character) only occurs 57 times. 
             </p>
             
             <p class="essay">
@@ -51,11 +51,11 @@
             </p>
             
             <p class="essay">
-                One large visual disparity between the two word clouds is how cluttered they look. Both clouds are comprised of 55 words each, however, the cloud for "The Lottery" looks like it has significantly more content than the cloud for "The Most Dangerous Game". This happens because "Rainsford", "General", and "said" are far more frequent than any other words in the story. The fourth most frequent word is "hunting" with only 28 occurences (in contrast to 60 occurences of "said"). This leads to the cloud having many words that only occur eight times (nerve, sleep, feet, etc.) being included. The infreqeuency of these words makes them appear much smaller, thus giving the illusion that there is less content in the cloud compared to "The Lottery". 
+                One large visual disparity between the two word clouds is how cluttered they look. Both clouds are comprised of 55 words each, however, the cloud for "The Lottery" looks like it has significantly more content than the cloud for "The Most Dangerous Game". This happens because "Rainsford", "General", and "said" are far more frequent than any other words in the story. The fourth most frequent word is "hunting" with only 28 occurrences (in contrast to 60 occurrences of "said"). This leads to the cloud having many words that only occur eight times (nerve, sleep, feet, etc.) being included. The infrequency of these words makes them appear much smaller, thus giving the illusion that there is less content in the cloud compared to "The Lottery". 
             </p>
             
             <h2>AntConc Analysis</h2>
-            <h3>N-Grams of three to five words that appear five or more times in the text</h3>
+            <h3>N-Grams of 3 to 5 Words that Appear 5 or More Times in the Text</h3>
             
             <div class="container">
                 <div class="corpusone">
@@ -78,7 +78,77 @@
             </div>
             
             <p class="essay">
-                    
+                When looking at these n-grams, the emphasis that each text has on dialogue is once again emphasized, due to the most frequent n-grams in each text being dialogue tags. No other n-grams of the same or larger size even comes close. This can at least in part be attributed to the fact that these are short stories, thus they don't have as many chances for reoccurring phrases as, say, a novel. An interesting contrast between these two dialogue tags, are the placement of the word "said". Jackson puts "said" at the end of her tags, whereas Connell puts it at the beginning of his. This small difference gives each story a different feel. Having "said" after the name of the speaker in a dialogue tag gives a sense that the events of the story have already taken place, and you are reading about it at a later time. In contrast, having "said" before the name of the speaker implies that the action is taking place as you are reading, and the outcome isn't predetermined. 
+            </p>
+            
+            <p class="essay">
+                Due to the allowance of different sized n-grams, the amount of frequent n-grams that are found in "The Lottery" is deceptively large. Any combination of words in the phrase "the official of the lottery" are all from the same sentences, so AntConc shows six different n-grams where there is only one. I feel this is an inherent flaw in AntConc's n-gram feature, but this case is especially noticeable due to the lack of common phrases in the text. 
+            </p>    
+            
+            <p class="essay">
+                One word that is noticeably absent from any 3+ word n-grams for "The Most Dangerous Game" is "Rainsford", the most frequent word in the story. I feel like the biggest reason that the General is more prevalent in the n-grams is because it takes two words alone to refer to him. If the minimum word count for n-grams is decreased to 2, the phrase "said Rainsford" occurs 13 times, only 2 times less than "said the General". This being said, 13 occurrences seems relatively small considering the frequency of the word "said". Looking at the concordance plots for the words "Rainsford" and "said" may give some insight to this small number. 
+            </p>
+            
+            <h3>"The Most Dangerous Game" Concordance Plots</h3>
+            <div class="container">
+                <div class="corpuscenter">
+                     <img src="corpusAnalysis/images/game/rainsford_concordance_plot.png"
+                          alt="concordance plot for the word Rainsford"/>
+                </div>
+            </div>
+            <p class="corpuscaption">
+                "Rainsford" Concordance Plot
+            </p>
+                
+            <div class="container">
+                <div class="corpuscenter">
+                    <img src="corpusAnalysis/images/game/said_concordance_plot.png"
+                         alt="concordance plot for the word said"/>
+                </div>  
+            </div>
+            <p class="corpuscaption">
+                "Said" Concordance Plot
+            </p>
+            
+            <p class="essay">
+                When comparing the above plots, it is clear that there are two stretches of text that are free of dialogue. Within the story, Rainsford is alone during these portions, so the lack of dialogue is natural. In contrast, the frequency of "Rainsford" is fairly evenly distributed throughout the text. There are large portions of the text where "Rainsford" is very dense, while "said" is completely absent, which is likely the cause of small frequency of the n-gram "said Rainsford". However, it is almost opposite for the concordance of "General". 
+            </p>
+            
+            <div class="container">
+                <div class="corpuscenter">
+                    <img src="corpusAnalysis/images/game/general_concordance_plot.png"
+                         alt="concordance plot for the word general"/>
+                </div>
+            </div>
+            <p class="corpuscaption">
+                "General" Concordance Plot
+            </p>
+            
+            <p class="essay">
+                The General does not appear in the story until about a quarter of the way through. In contrast to Rainsford, however, there is a large section of text (right before "said" cuts out for the second time) where the concordance of "said" and "General" are close to identical. Looking at these results, I can assume that the General is developed more through his dialogue, while Rainsford is developed more through his actions. Having read the story, I would say that this is an accurate assumption. Rainsford is the point-of-view character, so the reader gets more insight into his thoughts and his alone. Also, as mentioned above, there are two large portions of the text where Rainsford is alone, so he is the only character that can be developed at those times. 
+            </p>
+  
+            <h3>The Gender Divide in "The Lottery"</h3>
+            <p class="essay">
+                The town showed in "The Lottery" is very patriarchal, so it makes sense that "Mr" appears significantly more often than "Mrs". "Mr" appears in the text 71 times, while "Mrs" only appears 33 times. However, upon further inspection, the frequency of "Mr" is largely due to Mr. Summers' influence. 
+            </p>
+            
+            <div class="container">
+                <div class="corpuscenter">
+                    <img src="corpusAnalysis/images/lotto/mrs_v_mr_v_mr_summers.png"
+                         alt= "n-grams of 1 to 2 words that appear 33 or more times in the text"/>
+                </div>
+            </div>
+            <p class="corpuscaption">
+                Comparison of the Phrases "Mr", "Mrs", and "Mr. Summers"
+            </p>
+            
+            <p class="essay">
+                As you can see, while "Mr" appears 71 times, "Mr. Summers" appears 56 times. From this, it can be concluded that "Mr" appears apart from Mr. Summers only 15 times. If Mr. Summers is removed from the comparison, then "Mrs" appears more than twice as often as "Mr". That being said, Mr. Summers alone appears 1.7x as often as any of the women. When taking into account that a female character is arguably the most important, and that Mr. Summers drives the plot forward, these numbers generally make sense. Unfortunately, this is the only interesting thing I could find in "The Lottery" on its own. 
+            </p>
+            
+            <p class="essay">
+                Going into this project, I had hoped that I might find a similarity in these texts that explained why these particular texts are commonly seen in high school English classes. Unfortunately, I didn't really find that answer. If I had to guess why these are such popular texts, I would say that they both raise questions about morality and in general are just pieces that "make you think". Were I to work on this project further, I would find more stories that fall into the category of "Weird Short Stories You Had To Read in High School English", such as "The Yellow Wallpaper" and "The Monkey's Paw", and compare them to see if there were any common threads in a larger number of texts. 
             </p>
         </div>       
     </body>

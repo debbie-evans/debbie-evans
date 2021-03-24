@@ -190,6 +190,17 @@ a.navactive{
     box-sizing: content-box;
 }
 
+.corpuscenter{
+    text-align: center;
+    max-width: 60%;
+    max-height: 40%;
+    flex: 2;
+    box-sizing: content-box;
+    margin-top: 1.5vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
 .corpuscaption{
     flex: 2;
     font-size: 1.25vw;
@@ -202,7 +213,7 @@ a.navactive{
     margin-top:3vw;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-bottom: 1vw;
+    margin-bottom: 3vw;
     padding:.1vw;
     background-image: linear-gradient(to bottom right, #e4fbff, #ccf7ff);
     box-sizing: content-box;
