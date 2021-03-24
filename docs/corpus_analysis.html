@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Corups Analysis</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div class="menu">
+            <a href="index.html" class="nav">Home</a>           
+            <a href="resume.html" class="nav">Resume</a>
+            <a href="projects.html" class="nav">Projects</a>
+            <a href="reflection.html" class="nav">Reflection</a>
+            <a href="corpus_analysis.html" class="navactive">Corpus Analysis</a>
+            <a class="contact">dze118@psu.edu &#9900; (814) 528-2562</a>
+        </div>
+        
+        <div class="section">
+            <h1 class="essay">Corpus Anaysis</h1>
+            <p class="essay">
+                For this assignment, I decided to analyze "The Lottery" by Shirley Jackson and "The Most Dangerous Game" by Richard Connell. I chose to compare these two texts because they fall into a category I like to call "Weird Short Stories You Have to Read in High School English". Out of all of the stories in that category, I picked these two specifically because they both deal with normalized murder. The sites from which I retrieved each text is linked at the bottom of this page. "The Lottery" had a few typos in the source that I used, so I edited the .txt file to correct those errors. 
+            </p>
+            
+            <h2>Voyant Word Clouds</h2>
+            <div class="container">
+                <div class="corpusone">
+                    <img src="corpusAnalysis/images/lotto/lotto_voyant_55.png"
+                         alt="the Voyant cloud for The Lottery"/>
+                <p class="corpuscaption">
+                    "The Lottery"
+                </p>         
+                </div>
+                
+                <div class="corpustwo">
+                    <img src="corpusAnalysis/images/game/game_voyant_55.png"
+                         alt="the Voyant cloud for The Most Dangerous Game"/>
+                    <p class="corpuscaption">
+                        "The Most Dangerious Game"
+                    </p>
+         
+                </div>
+            </div>
+            
+            <p class="essay">
+                Upon looking at these Voyant Word Clouds, it is clear that both texts have a lot of dialogue due to the frequecny of the word "said". In "The Most Dangerous Game", "said" is the third most frequent word (60 occurences), only after the names of the two main characters, Rainsford (119 occurences) and [the] General (97 occurences). In "The Lottery", "said" is the second most frequent word (69 occurences), while "summers" (in reference to Mr. Summers, the central character) only occurs 57 times. 
+            </p>
+            
+            <p class="essay">
+                The difference between the placements of titular characters' names in terms of frequency can likely be attributed to the number of characters each story has. "The Most Dangerous Game" only has four named characters and only two of them are relevant to the plot, whereas "The Lottery" has a large cast where no one character is a "main character". The reason that "summers" occurs more than any other name is due to the character, Mr. Summers, who is the main driving force behind the plot. Looking further at the "Lottery" Voyant Cloud, you can see many different first and last names, which shows just how many characters there are in this story. In addition to that, it is clear that "Mr" and "Mrs" are frequently used in combination with most, if not all, of the last names. 
+            </p>
+            
+            <p class="essay">
+                One large visual disparity between the two word clouds is how cluttered they look. Both clouds are comprised of 55 words each, however, the cloud for "The Lottery" looks like it has significantly more content than the cloud for "The Most Dangerous Game". This happens because "Rainsford", "General", and "said" are far more frequent than any other words in the story. The fourth most frequent word is "hunting" with only 28 occurences (in contrast to 60 occurences of "said"). This leads to the cloud having many words that only occur eight times (nerve, sleep, feet, etc.) being included. The infreqeuency of these words makes them appear much smaller, thus giving the illusion that there is less content in the cloud compared to "The Lottery". 
+            </p>
+            
+            <h2>AntConc Analysis</h2>
+            <h3>N-Grams of three to five words that appear five or more times in the text</h3>
+            
+            <div class="container">
+                <div class="corpusone">
+                     <img src="corpusAnalysis/images/lotto/lotto_3_5_min5.png"
+                          alt="Output in AntConc of N-grams that are 3 to 5 words long that occur 5 or more times in The Lottery"/>
+                    <p class="corpuscaption">
+                        "The Lottery"
+                    </p>   
+
+                </div>
+                
+                <div class="corpustwo">
+                    <img src="corpusAnalysis/images/game/game_3_5_min5.png"
+                         alt="Output in AntConc of N-grams that are 3 to 5 words long that occur 5 or more times in The Most Dangerous Game"/>
+                    <p class="corpuscaption">
+                        "The Most Dangerous Game"
+                    </p>
+
+                </div>
+            </div>
+            
+            <p class="essay">
+                    
+            </p>
+        </div>       
+    </body>
+</html>

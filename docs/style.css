@@ -172,6 +172,32 @@ a.navactive{
     text-align: left;
 }
 
+.corpusone{
+    flex: 2;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 5vw;
+    margin-right: 3vw;
+    box-sizing: content-box;
+}
+
+.corpustwo{
+    flex: 2;
+    text-align: center;
+    margin-top: 1vw;
+    margin-left: 3vw;
+    margin-right: 5vw;
+    box-sizing: content-box;
+}
+
+.corpuscaption{
+    flex: 2;
+    font-size: 1.25vw;
+    margin-top: .5vw;
+    margin-bottom: .5vw;
+    text-align: center;
+}
+
 .section{
     margin-top:3vw;
     margin-left: 5vw;
@@ -273,7 +299,7 @@ hr{
 
 .contact{
     text-align: right;
-    margin-left: 32vw;
+    margin-left: 15vw;
     font-weight:bold;
 }
 
