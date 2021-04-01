@@ -309,8 +309,12 @@ hr{
 
 .contact{
     text-align: right;
-    margin-left: 15vw;
+    margin-left: 1.5vw;
     font-weight:bold;
+}
+
+iframe{
+    margin-left: 2.5vw;
 }
 
 
