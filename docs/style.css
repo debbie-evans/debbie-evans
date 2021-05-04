@@ -9,7 +9,6 @@ body{
 }
 
 div.menu{
-/*    text-align: left;*/
     font-size: 2vw;
     padding: 1.5vw;
     padding-left: 1vw;
@@ -56,6 +55,88 @@ a.navactive{
     padding: .5vw;
     background-color: #7868e6;
     box-shadow: 2px 2px 1px #7868e6;
+}
+
+.dropbutton{
+    font-size: 2vw;
+    color: #7868e6;
+    text-decoration: none;
+    font-weight: bold;
+    border: .25vw #7868e6;
+    border-style: solid;
+    border-radius: 8px;
+    padding: .5vw;
+    background-color: #ceccff;
+    box-shadow: 2px 2px 1px #7868e6;
+    cursor: pointer;
+}
+
+.dropbutton:hover{
+    font-size: 2vw;
+    color: #ceccff;
+    text-decoration: none;
+    font-weight: bold;
+    border: .25vw #ceccff;
+    border-style: solid;
+    border-radius: 8px;
+    padding: .5vw;
+    background-color: #7868e6;
+    box-shadow: 2px 2px 1px #7868e6;
+    cursor: pointer;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropmenu{
+    font-size: 2vw;
+    color: #7868e6;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .1vw;
+    margin: .1vw;
+    border: .1vw;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #ceccff;
+}
+    
+.dropmenu:hover{
+    font-size: 2vw;
+    color: #ceccff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .1vw;
+    margin: .1vw;
+    border: .1vw;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: #7868e6
+}
+
+hr.menu{
+    margin: .5vw;
+    border: none;
+    padding: 0;
+} 
+
+.dropcontent{
+    display: none;
+    position: absolute;
+    background-color: #ceccff;
+    padding: .5vw;
+    text-decoration: none;
+    border: .25vw #7868e6;
+    border-style: solid;
+    border-radius: 8px;
+    right: 0;
+    box-sizing: content-box;
+}
+
+.dropdown:hover .dropcontent{
+    display: block;
 }
 
 .container{
@@ -316,7 +397,7 @@ hr{
 
 .contact{
     text-align: right;
-    margin-left: 1.5vw;
+    margin-left: 25vw;
     font-weight:bold;
 }
 
