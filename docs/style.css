@@ -289,6 +289,15 @@ hr.menu{
     text-align: center;
 }
 
+.gamecenter{
+    text-align: center;
+    max-width: 75%;
+    box-sizing: content-box;
+    margin-top: 1.5vw;
+    margin-left: 12vw;
+    margin-right: 10vw;
+}
+
 .section{
     margin-top:3vw;
     margin-left: 5vw;
@@ -406,6 +415,8 @@ iframe{
 }
 
 iframe.kumu{
-    margin-left: 10vw;
+    margin-left: 12vw;
+    margin-right: 10vw;
 }
+
 
